@@ -3,8 +3,8 @@ package java_8_features.streaming.java8;
 import java.util.List;
 import java.util.function.Predicate;
 
-import com.java8.model.Employee;
-import com.java8.util.CollectionUtility;
+import java_8_features.streaming.java8.model.Employee;
+import java_8_features.streaming.java8.util.CollectionUtility;
 
 public class FilterAndConvert {	
 		public static void main(String[] args) {

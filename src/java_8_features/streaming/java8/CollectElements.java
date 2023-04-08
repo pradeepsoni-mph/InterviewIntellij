@@ -6,8 +6,9 @@ import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import com.java8.model.Employee;
-import com.java8.util.CollectionUtility;
+
+import java_8_features.streaming.java8.model.Employee;
+import java_8_features.streaming.java8.util.CollectionUtility;
 
 public class CollectElements {
 	public static void main(String[] args) {

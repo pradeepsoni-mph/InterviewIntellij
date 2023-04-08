@@ -3,7 +3,8 @@ package java_8_features.streaming.java8.util;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.java8.model.Employee;
+
+import java_8_features.streaming.java8.model.Employee;
 
 public class CollectionUtility {
 	public static List<Employee> getEmpList(){
