@@ -1,6 +1,6 @@
 package java_8_features.streaming.java8.model;
 
-public class Employee {//implements Comparable<Employee> {
+public class Employee{/// implements Comparable<Employee> {
 	private String name;
 	private int age;
 	private double salary;
@@ -33,12 +33,12 @@ public class Employee {//implements Comparable<Employee> {
 		return "Employee [name=" + name + ", age=" + age + ", salary=" + salary + "]";
 	}
 	
-	/*@Override
-	public int compareTo(Employee o) {
-		if(name.compareTo(o.getName())!=0)
-			return name.compareTo(o.getName());
-		else
-			return Integer.compare(age, o.getAge());
-	}*/
+//	@Override
+//	public int compareTo(Employee o) {
+//		if(name.compareTo(o.getName())!=0)
+//			return name.compareTo(o.getName());
+//		else
+//			return Integer.compare(age, o.getAge());
+//	}
 	
 }

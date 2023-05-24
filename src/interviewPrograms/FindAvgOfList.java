@@ -12,7 +12,7 @@ public class FindAvgOfList {
 		System.out.println("The average of the List is: "+iss.getAverage()); 
 		
 		OptionalDouble avg = list.stream().mapToInt((a) -> a).average();
-		System.out.println("The average of the List is: "+avg); 
+		System.out.println("The average of the List is: "+avg.getAsDouble());
 		
 		int sum = list.stream().mapToInt((a) -> a).sum();
 		System.out.println("The average of the List is: "+sum);
