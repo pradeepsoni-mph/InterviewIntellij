@@ -16,9 +16,9 @@ public class SortEmployee {
 		list.stream().sorted().
         forEach(System.out::println);
 
-//		list.sort((o1, o2)
-//				-> o1.getName().compareTo(
-//				o2.getName()));
+		list.sort((o1, o2)
+				-> o1.getName().compareTo(
+				o2.getName()));
 
 	}		
 }

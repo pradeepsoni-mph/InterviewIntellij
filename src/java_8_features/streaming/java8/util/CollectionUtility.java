@@ -9,7 +9,7 @@ import java_8_features.streaming.java8.model.Employee;
 public class CollectionUtility {
 	public static List<Employee> getEmpList(){
 		List<Employee> list =new ArrayList<>();
-		list.add(new Employee("Pradeep",30,4000));
+		list.add(new Employee("Pradeep",50,4000));
 		list.add(new Employee("Alok",10,5000));
 		list.add(new Employee("Prashant",5,3000));
 		list.add(new Employee("Pradeep",35,10000));
