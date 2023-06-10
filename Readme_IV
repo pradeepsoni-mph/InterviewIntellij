@@ -1,1 +1,7 @@
 
+select * from student order by salary desc
+
+find nth salary
+SELECT DISTINCT (a.salary) FROM student A 
+WHERE &N = (SELECT COUNT (DISTINCT (b.salary)) 
+FROM student B WHERE a.salary<=b.salary);
