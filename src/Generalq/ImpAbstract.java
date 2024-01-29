@@ -1,16 +1,16 @@
 package Generalq;
 
-abstract class A
+abstract class A2
 {
 	public void f1()
 	{
 		System.out.println("F()");
 	}
-	
+
 	public abstract void f2();
 }
 
-class ImpAbstract extends A
+class ImpAbstract extends A2
 {
 	public void f1()
 	{
@@ -20,7 +20,7 @@ class ImpAbstract extends A
 
 	public static void main(String ar[])
 	{
-		A a = new ImpAbstract();
+		A2 a = new ImpAbstract();
 		a.f1();
 	}
 }

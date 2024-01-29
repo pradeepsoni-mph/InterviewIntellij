@@ -2,7 +2,7 @@ package JExcel;
 
 import java.util.*;
 import java.io.*;
-import jxl.*;
+//import jxl.*;
 
 /* Download "jexcelapi_2_6_12.tar" form below givn the link 
 Extract it then got "jexcelapi" folder and inside this folder
@@ -25,30 +25,30 @@ public class JavaReadExcel
          try
          {
   	
-             Workbook workbook = Workbook.getWorkbook(new File("AP.xls"));
-
-             String sheetName[]=workbook.getSheetNames();
-             Sheet sheet;
-             Cell xlsCell;  //one value(one cell).
-             Cell[] cell;  //row
-	
-             for(int p=0; p<sheetName.length; p++)
-             {
-                 sheet = workbook.getSheet(p);
-		 
-                 for(int i=0; i<sheet.getRows(); i++)
-                 {
-
-                     cell = sheet.getRow(i);
-
-		     System.out.println();
-                     for(int j=0; j<cell.length; j++)
-                     {
-                         xlsCell = sheet.getCell(j,i);
-                         System.out.print(xlsCell.getContents().toString() + " ");
-                     }
-                 }
-             }
+//             Workbook workbook = Workbook.getWorkbook(new File("AP.xls"));
+//
+//             String sheetName[]=workbook.getSheetNames();
+//             Sheet sheet;
+//             Cell xlsCell;  //one value(one cell).
+//             Cell[] cell;  //row
+//
+//             for(int p=0; p<sheetName.length; p++)
+//             {
+//                 sheet = workbook.getSheet(p);
+//
+//                 for(int i=0; i<sheet.getRows(); i++)
+//                 {
+//
+//                     cell = sheet.getRow(i);
+//
+//		     System.out.println();
+//                     for(int j=0; j<cell.length; j++)
+//                     {
+//                         xlsCell = sheet.getCell(j,i);
+//                         System.out.print(xlsCell.getContents().toString() + " ");
+//                     }
+//                 }
+//             }
          }
          catch(Exception exec)
          {

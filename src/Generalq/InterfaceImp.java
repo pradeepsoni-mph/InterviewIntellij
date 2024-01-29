@@ -1,13 +1,13 @@
 package Generalq;
 
-interface A
+interface AI
 {
 	public void f1();
 	//public void f2();
 	//public void f3();
 }
 
-class B implements A
+class B implements AI
 {
 	public void f1()
 	{

@@ -1,5 +1,7 @@
 package RTTI;
 
+import java.util.Random;
+
 class Initable
 {
 	static final int staticFinal = 47;
@@ -35,12 +37,12 @@ public class ClassInitialization
 	{
 		Class initable = Initable.class;
 		System.out.println("After Createing Initable Refrence");
-		System.out.println(Initable.staticFinal");
-		System.out.println(Initable.staticFinal2");
-		System.out.println(Initable2.staticNonFinal");
-		Class initable3 = Class.forName(Initable3");
+		System.out.println(Initable.staticFinal);
+		System.out.println(Initable.staticFinal2);
+		System.out.println(Initable2.staticNonFinal);
+		Class initable3 = Class.forName("Initable3");
 		System.out.println("After creating Initable3 Reference");
-		System.out.println(Initable3.staticNonFinal");
+		System.out.println(Initable3.staticNonFinal);
 
 	}
 }

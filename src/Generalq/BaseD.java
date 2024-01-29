@@ -1,13 +1,13 @@
 package Generalq;
 
-class A
+class A1
 {
 	public void f1()
 	{
 		System.out.println("f1()");
 	}
 }
-class BaseD extends A
+class BaseD extends A1
 {
 	public void f2()
 	{
@@ -15,7 +15,7 @@ class BaseD extends A
 	}
 	public static void main(String arg[])
 	{
-		A a = new BaseD();
+		A1 a = new BaseD();
 
 		a.f1();
 

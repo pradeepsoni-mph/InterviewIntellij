@@ -1,4 +1,6 @@
-class Cl1
+package interview.company.Amdocs;
+
+class Cl
 {
 	
 	public void fun()
@@ -12,7 +14,7 @@ class Cl1
 	}
 }
 
-class MethodPoly extends Cl1
+class MethodCall extends Cl
 {
 	public void fun1()
 	{
@@ -21,7 +23,7 @@ class MethodPoly extends Cl1
 
 	public static void main(String args[])
 	{
-		Cl1 c=new Cl1();
+		Cl c=new Cl();
 
 		MethodCall m = new MethodCall();
 		m.fun1();

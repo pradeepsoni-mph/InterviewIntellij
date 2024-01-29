@@ -1,3 +1,5 @@
+package interview.company.Amdocs;
+
 class StringsPrg
 {
 	public static void main(String args[])

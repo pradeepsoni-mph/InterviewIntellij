@@ -1,3 +1,5 @@
+package interview.company.Amdocs;
+
 class Cl1
 {
 	
@@ -12,7 +14,7 @@ class Cl1
 	}
 }
 
-class MethodPoly extends Cl1
+class MethodPoly1 extends Cl1
 {
 	public void fun1()
 	{
@@ -23,7 +25,7 @@ class MethodPoly extends Cl1
 	{
 		Cl1 c=new Cl1();
 
-		MethodPoly m = new MethodPoly();
+		MethodPoly1 m = new MethodPoly1();
 
 		m.fun1();
 		m.fun();
@@ -33,7 +35,7 @@ class MethodPoly extends Cl1
 
 		try
 		{
-			m = (MethodPoly)c;
+			m = (MethodPoly1)c;
 		}
 		catch(Exception e){}
 
